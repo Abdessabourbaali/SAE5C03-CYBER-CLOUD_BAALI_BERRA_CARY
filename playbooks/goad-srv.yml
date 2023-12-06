@@ -1,0 +1,5 @@
+---
+- name: srv join fleet
+  hosts: localhost
+  roles:
+    - GOAD-SRV

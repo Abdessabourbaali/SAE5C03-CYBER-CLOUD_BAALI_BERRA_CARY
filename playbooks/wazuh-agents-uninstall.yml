@@ -1,0 +1,20 @@
+---
+- name: Destroy Wazuh Agents
+  hosts: windows
+  
+  tasks:
+
+    - name: Download wazuh installer
+      ansible.windows.win_copy:
+        src: ../roles/wazuh-agent/files/wazuh-agent-4.6.0-1.msi
+        dest: C:\Temp\
+
+    - name: Install wazuh package
+      win_package:
+        path: C:\Temp\wazuh-agent-4.6.0-1.msi
+        state: absent
+
+    - name: Remove agent installer
+      ansible.windows.win_file:
+        path: C:\Temp\wazuh-agent-4.6.0-1.msi
+        state: absent

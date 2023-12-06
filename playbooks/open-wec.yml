@@ -1,0 +1,6 @@
+---
+- name: Instal open-wec
+  hosts: open-wec
+  roles:
+    - open-wec
+

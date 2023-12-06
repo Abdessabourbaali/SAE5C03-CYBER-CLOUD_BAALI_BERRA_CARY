@@ -1,0 +1,5 @@
+---
+- name: Install elastic
+  hosts: elastic
+  roles:
+    - elastic-server
