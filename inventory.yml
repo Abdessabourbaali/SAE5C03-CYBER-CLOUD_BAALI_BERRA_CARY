@@ -1,0 +1,18 @@
+linux:
+  hosts:
+    open-wec:
+    wazuh:
+    elastic:
+    wireguard:
+
+windows:
+  children:
+    dc:
+      hosts:
+        DC01:
+        DC02:
+        DC03:
+    winserv:
+      hosts:
+        SRV02:
+        SRV03:
