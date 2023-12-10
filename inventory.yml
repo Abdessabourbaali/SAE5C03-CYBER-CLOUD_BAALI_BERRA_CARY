@@ -1,9 +1,6 @@
 linux:
   hosts:
-    open-wec:
-    wazuh:
-    elastic:
-    wireguard:
+    openwec:
 
 windows:
   children:
