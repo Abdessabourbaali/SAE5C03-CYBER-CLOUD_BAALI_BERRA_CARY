@@ -4,7 +4,12 @@
 
 ### Organisation et répartition des tâches qui ont été effectués au terme de cette SAE
 
-Nous nous sommes divisé les tâches selon ce que nous préférions faire. Nous avons d'abord déployé un GOAD sur virtualbox en attendant de pouvoir le faire sur proxmox. Nous avons aussi fait une PoC de l'automatisation de l'installation pour qu'une fois que le proxmox est disponible on ai juste nos script ansible à lancer.
+L'équipe s'est organisée de manière à tirer parti des préférences individuelles et des compétences de chaque membre. Voici un résumé de l'organisation et de la répartition des tâches :
+
+### Organisation de l'équipe :
+
+- Les membres se sont répartis les tâches en fonction de leurs préférences et compétences.
+- La première étape consistait à déployer un GOAD sur VirtualBox en attendant de pouvoir le faire sur Proxmox.
 
 #### Paul
 
@@ -41,14 +46,14 @@ Nous nous sommes divisé les tâches selon ce que nous préférions faire. Nous 
 
 #### Abdessabour
 
-- Configuration d'OpenWEC sur l'environnement Virtualbox
+- Dificulté dans la configuration d'OpenWEC sur l'environnement Virtualbox
 - Difficulté dans la compréhension de l'authentification Kerberos entre Windows et Linux
 
 #### Théo
 
 - Difficulté dans l'automatisation de l'installation de GOAD sur Proxmox
 
-### Ce que nous avons appris au terme de cette SAE
+### Ce que nous avons appris au terme de cette
 
 #### Paul
 
@@ -56,26 +61,29 @@ Nous nous sommes divisé les tâches selon ce que nous préférions faire. Nous 
 
 #### Abdessabour
 
-- Compréhension d'openwec et Kerberos
+- Meilleur compréhension d'openwec et Kerberos
 - Meilleur maîtrise d'Active Directory sur Windows (Domaines, arbres et forêts)
 
 #### Théo
 
 - Meilleur compréhension de l'utilité des SIEM (Wazuh et Elastic)
 
+## Conclusion
+
+Au terme de cette SAE, notre équipe a réussi à mettre en place un environnement propice à la détection d'alerte avec notamment la mise en place des SIEM, d'un serveur de log centralisé. Notre approche collaborative, basée sur la répartition des tâches en fonction des compétences et des préférences individuelles, a été efficace pour la plupart des aspects du projet. 
+
+Malgré la mise en place des outils demandés nous avons identifié un axe d'amélioration important qui est l'automatisation des différents outils déployés. Les blocages rencontrés ont ralenti le processus d'automatisation, ce qui représente une zone clé où nous devrons concentrer nos efforts futurs.
+
+Pour finir, même si nous avons rencontrés quelques difficultés, chaque membre a acquis des compétences et des connaissances précieuses. Ces apprentissages serviront de base solide pour notre développement futur.
+
 ## Annexes
 
-- [x] [GOAD Proxmox](CR/goad_proxmox.pdf)(Manuel)
-- [x] [Accès VPN](CR/vpn.md) (Automatisé)
-- [x] Suricata (Manuel)
-- [x] [Sysmon](CR/sysmon.md) (Automatisé)
-- [x] [Audit](CR/audit.md) (Automatisé)
-- [x] [open-wec](CR/openwec.md) (Automatisé)
-	- [x] [WEF](CR/wef.md) (Automatisé)
-- [x] [Wazuh](CR/wazuh.md) (Automatisé)
-	- [x] [Installation agent par groupe DC/Servers](CR/wazuh-agent.md) (Automatisé)
-- [x] [Elastic (Automatisé)](CR/deploiement_elastic.md)
-- [x] [Splunk (Manuel)](CR/install_splunk.md)
-- [x] [Versioning Git](CR/git.md)
-- [x] [Attaques](CR/Pentest_GOAD.md) (Manuel)
-- [x] [Chainsaw/Hayabusa](CR/log-analyze.md)
+- [GOAD sur Proxmox](Compte-Rendu/goad_proxmox.pdf) (Manuel)
+- [GOAD sur Virtualbox](Compte-Rendu/goad_proxmox.pdf) (Automatisé)
+- [Configuration d'OpenWEC et la centralisation des logs](Compte-Rendu/manual_install_openwec.md) (Manuel)
+- [Installation de Sysmon](Compte-Rendu/manual_install_sysmon.md) (Manuel)
+- [Configuration des règles d'audit](Compte-Rendu/manual_install_openwec.md) (Manuel)
+- [Wazuh](Compte-Rendu/wazuh.pdf) (Automatisé)
+- [Elastic](Compte-Rendu/deploiement_elastic.pdf) (Automatisé)
+- [Attaques](Compte-Rendu/Pentest_GOAD.md) (Manuel)
+- [Mise en place de Chainsaw/Hayabusa](Compte-Rendu/log-analyze.pdf) (Manuel)
