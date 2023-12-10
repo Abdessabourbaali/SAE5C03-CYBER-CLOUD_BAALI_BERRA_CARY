@@ -82,12 +82,12 @@ Pour finir, même si nous avons rencontrés quelques difficultés, chaque membre
 
 ## Annexes
 
-- [GOAD sur Proxmox](Compte-Rendu/goad_proxmox.pdf) (Manuel)
-- [GOAD sur Virtualbox](Compte-Rendu/goad_proxmox.pdf) (Automatisé)
+- [GOAD sur Proxmox](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Manuel)
+- [GOAD sur Virtualbox](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Automatisé)
 - [Configuration d'OpenWEC et la centralisation des logs](Compte-Rendu/manual_install_openwec.md) (Manuel)
 - [Installation de Sysmon](Compte-Rendu/manual_install_sysmon.md) (Manuel)
 - [Configuration des règles d'audit](Compte-Rendu/manual_install_openwec.md) (Manuel)
-- [Wazuh](Compte-Rendu/wazuh.pdf) (Automatisé)
-- [Elastic](Compte-Rendu/deploiement_elastic.pdf) (Automatisé)
-- [Attaques](Compte-Rendu/Pentest_GOAD.md) (Manuel)
-- [Mise en place de Chainsaw/Hayabusa](Compte-Rendu/log-analyze.pdf) (Manuel)
+- [Wazuh](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Automatisé)
+- [Elastic](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Automatisé)
+- [Attaques](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Manuel)
+- [Mise en place de Chainsaw/Hayabusa](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Manuel)
