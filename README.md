@@ -82,7 +82,10 @@ Pour finir, même si nous avons rencontrés quelques difficultés, chaque membre
 
 ## Annexes
 
+
+- [Repos Github pour avoir accès aux annexes](https://github.com/Abdessabourbaali/SAE5C03-CYBER-CLOUD_BAALI_BERRA_CARY)
 - [GOAD sur Proxmox](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Manuel)
+- [Schéma GOAD Virtualbox](schéma_environnement/GOAD_on_Virtualbox.png)
 - [GOAD sur Virtualbox](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Automatisé)
 - [Configuration d'OpenWEC et la centralisation des logs](Compte-Rendu/manual_install_openwec.md) (Manuel)
 - [Installation de Sysmon](Compte-Rendu/manual_install_sysmon.md) (Manuel)
