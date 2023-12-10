@@ -160,6 +160,7 @@ Les règles à configuré sont dans :
 ```bash
 Group Policy Management > Forest sevenkingdoms.local > Domains > sevenkingdoms.local > Group Policy Object > GPO WEF > Clique droit sur “Edit” > Computer configuration > Policies > Windows Settings > Security Settings > Advanced Audit Policy Configuration > Audit Policies
 ```
+
 Audit de sécurité configuré sur le GOAD-DC01 :
 
 ![Audit](images/screen_openwec/C3.PNG)
@@ -202,7 +203,7 @@ openwec@openwec:~# cat /etc/hosts
 10.202.0.93 meereen.essos.local meereen
 
 # The following lines are desirable for IPv6 capable hosts
-::1 	ip6-localhost ip6-loopback
+::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
