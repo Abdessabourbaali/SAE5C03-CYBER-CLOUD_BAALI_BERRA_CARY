@@ -68,6 +68,7 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 - Meilleur compréhension de l'utilité des SIEM (Wazuh et Elastic)
 
+
 ## Conclusion
 
 Au terme de cette SAE, notre équipe a réussi à mettre en place un environnement propice à la détection d'alerte avec notamment la mise en place des SIEM, d'un serveur de log centralisé. Par manque de temps notre approche collaborative, basée sur la répartition des tâches en fonction des compétences et des préférences individuelles, n'a pas été parfaite.
@@ -81,7 +82,6 @@ Malgré la mise en place des outils demandés nous avons identifié un axe d'am�
 Pour finir, même si nous avons rencontrés quelques difficultés, chaque membre a acquis des compétences et des connaissances précieuses. Ces apprentissages serviront de base solide pour notre développement futur.
 
 ## Annexes
-
 
 - [Repos Github pour avoir accès aux annexes](https://github.com/Abdessabourbaali/SAE5C03-CYBER-CLOUD_BAALI_BERRA_CARY)
 - [GOAD sur Proxmox](Compte-Rendu/SAE5C03-BAALI-BERRA-CARY-Compte-Rendu-Technique.pdf) (Manuel)
