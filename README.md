@@ -68,12 +68,11 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 - Meilleur compréhension de l'utilité des SIEM (Wazuh et Elastic)
 
-
 ## Conclusion
 
 Au terme de cette SAE, notre équipe a réussi à mettre en place un environnement propice à la détection d'alerte avec notamment la mise en place des SIEM, d'un serveur de log centralisé. Par manque de temps notre approche collaborative, basée sur la répartition des tâches en fonction des compétences et des préférences individuelles, n'a pas été parfaite.
 
-Nous avons rencontré des difficultés liées à la limitation de la mémoire de certains PC, ce qui a entraîné des problèmes de performance et des bugs. Pour assurer la garantie de fonctionnement, nous avons pris la décision jouer la carte de rester dans un environnement virtuel sur Virtualbos, évitant ainsi de partir dans l'inconnu.
+Nous avons rencontré des difficultés liées à la limitation de la mémoire RAM de certains PC, ce qui a entraîné des problèmes de performance et des bugs. Pour assurer la garantie de fonctionnement, nous avons pris la décision jouer la carte de rester dans un environnement virtuel sur Virtualbox, évitant ainsi de partir dans l'inconnu.
 
 La plupart des difficultés, y compris celles liées à l'automatisation, ont été identifiées et analysées pendant la période de préparation. Bien que ces défis aient été abordés de manière proactive, certains problèmes logistiques ont persisté, mettant en évidence l'importance de la planification minutieuse même en phase préparatoire.
 
