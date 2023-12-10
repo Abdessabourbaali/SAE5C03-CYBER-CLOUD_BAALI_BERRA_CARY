@@ -6,7 +6,7 @@
 
 L'équipe s'est organisée de manière à tirer parti des préférences individuelles et des compétences de chaque membre. Voici un résumé de l'organisation et de la répartition des tâches :
 
-### Organisation de l'équipe :
+### Organisation de l'équipe
 
 - Les membres se sont répartis les tâches en fonction de leurs préférences et compétences.
 - La première étape consistait à déployer un GOAD sur VirtualBox en attendant de pouvoir le faire sur Proxmox.
@@ -42,11 +42,11 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 #### Paul
 
-- 
+- Effacement du SIEM car le script n'était pas automatique
 
 #### Abdessabour
 
-- Dificulté dans la configuration d'OpenWEC sur l'environnement Virtualbox
+- Difficulté dans la configuration d'OpenWEC sur l'environnement Virtualbox
 - Difficulté dans la compréhension de l'authentification Kerberos entre Windows et Linux
 
 #### Théo
@@ -57,7 +57,7 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 #### Paul
 
-- 
+- Découverte du fonctionnement de Sharphound
 
 #### Abdessabour
 
@@ -70,7 +70,11 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 ## Conclusion
 
-Au terme de cette SAE, notre équipe a réussi à mettre en place un environnement propice à la détection d'alerte avec notamment la mise en place des SIEM, d'un serveur de log centralisé. Notre approche collaborative, basée sur la répartition des tâches en fonction des compétences et des préférences individuelles, a été efficace pour la plupart des aspects du projet. 
+Au terme de cette SAE, notre équipe a réussi à mettre en place un environnement propice à la détection d'alerte avec notamment la mise en place des SIEM, d'un serveur de log centralisé. Par manque de temps notre approche collaborative, basée sur la répartition des tâches en fonction des compétences et des préférences individuelles, n'a pas été parfaite.
+
+Nous avons rencontré des difficultés liées à la limitation de la mémoire de certains PC, ce qui a entraîné des problèmes de performance et des bugs. Pour assurer la garantie de fonctionnement, nous avons pris la décision jouer la carte de rester dans un environnement virtuel sur Virtualbos, évitant ainsi de partir dans l'inconnu.
+
+La plupart des difficultés, y compris celles liées à l'automatisation, ont été identifiées et analysées pendant la période de préparation. Bien que ces défis aient été abordés de manière proactive, certains problèmes logistiques ont persisté, mettant en évidence l'importance de la planification minutieuse même en phase préparatoire.
 
 Malgré la mise en place des outils demandés nous avons identifié un axe d'amélioration important qui est l'automatisation des différents outils déployés. Les blocages rencontrés ont ralenti le processus d'automatisation, ce qui représente une zone clé où nous devrons concentrer nos efforts futurs.
 
