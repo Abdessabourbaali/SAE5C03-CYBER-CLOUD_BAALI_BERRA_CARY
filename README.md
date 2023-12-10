@@ -53,7 +53,7 @@ L'équipe s'est organisée de manière à tirer parti des préférences individu
 
 - Difficulté dans l'automatisation de l'installation de GOAD sur Proxmox
 
-### Ce que nous avons appris au terme de cette
+### Ce que nous avons appris au terme de cette SAE
 
 #### Paul
 
